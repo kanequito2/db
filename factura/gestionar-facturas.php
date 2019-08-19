@@ -17,7 +17,7 @@
                 <a href="/index.html">Inicio</a>
                 <a href="/factura/FORMS/registrar-factura-form.php">Registrar Factura</a>
                 <a href="/factura/FORMS/eliminar-factura-form.php">Eliminar Factura</a>
-                <a href="/admin/FORMS/buscar-factura-form.php">Buscar</a>
+                <a href="/buscar/FORMS/buscar-form.php">Buscar</a>
             </div>
         </div>
         <div>

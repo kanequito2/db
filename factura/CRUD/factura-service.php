@@ -71,7 +71,7 @@
                         echo "<td><b>Fecha</b></td>";
                         echo "<td><b>Valor</b></td>";
                         echo "<td><b>Código Empresa</b></td>";
-                        echo "<td><b>Cedula del cliente</b></td>";
+                        echo "<td><b>Cedula del empleado</b></td>";
                     echo "</tr>";
                 while ($fila =mysqli_fetch_array($datos)){
                     echo "<tr>";

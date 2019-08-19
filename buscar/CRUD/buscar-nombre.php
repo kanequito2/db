@@ -22,12 +22,12 @@
         </div>
 
         <div>
-            <h2 align = "center">Aplicación para la gestion de la información de la disquera DISC S.A.S</h2>
-            <p><br></p>
-            <h4 align = "center">Desarrollado por:</h4>
-            <h4 align = "center">Angel David Ríos Ochoa</h4>
-            <h4 align = "center">Mirai Alejandro Kaneko</h4>
-            <h4 align = "center">camfez</h4>
+        <?php
+        include($_SERVER['DOCUMENT_ROOT']."/buscar/buscar-service.php");
+        echo $_POST['primer_nombre'];
+        $nuevo = new Buscar_Service();
+        $nuevo->buscar_nombre($_POST["primer_nombre"]);
+        ?>
         </div>
         
     </body>

@@ -17,7 +17,7 @@
                 <a href="/index.html">Inicio</a>
                 <a href="/cliente/FORMS/registrar-cliente-form.php">Registrar empleado</a>
                 <a href="/cliente/FORMS/eliminar-cliente-form.php">Eliminar empleado</a>
-                <a href="/admin/FORMS/buscar-admin-form.php">Buscar</a>
+                <a href="/buscar/FORMS/buscar-form.php">Buscar</a>
             </div>
         </div>
         <div>

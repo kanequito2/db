@@ -1,0 +1,84 @@
+p{
+	text-align: justify;	
+}
+
+* {
+	font-family: 'Georgia', 'Times', serif;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+div.titulo{
+    background-color: darkseagreen;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+body{
+    background-color: lightgrey;
+}
+p{
+	text-align: justify;	
+}
+
+* {
+	font-family: 'Georgia', 'Times', serif;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+div.titulo{
+    background-color: darkblue;
+}
+
+body{
+    background-color: lightgrey;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
