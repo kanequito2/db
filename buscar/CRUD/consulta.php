@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Inicio DISC-APP</title>
+        <title>CONSULTA DISC-APP</title>
         <link rel="stylesheet" type="text/css" href="style.css" >
         <meta charset="UTF-8">
     </head>
@@ -10,10 +10,11 @@
             <div>
                 <br>
                 <h1 align="center" style="color: white">DiscApp</h1>
-                <h2 align="center" style="color: white">Inicio</h2>
+                <h2 align="center" style="color: white">CONSULTA</h2>
             </div>
 
             <div class="scrollmenu">
+                <a href="/index.html">Inicio</a>
                 <a href="/empresa_distribuidora/gestionar-empresa.php">Gestionar empresas</a>
                 <a href="/cliente/gestionar-clientes.php">Gestionar empleados</a>
                 <a href="/factura/gestionar-facturas.php">Gestionar facturas</a>
@@ -23,12 +24,11 @@
         </div>
 
         <div>
-            <h2 align = "center">Aplicación para la gestion de la información de la disquera DISC S.A.S</h2>
-            <p><br></p>
-            <h4 align = "center">Desarrollado por:</h4>
-            <h4 align = "center">Angel David Ríos Ochoa</h4>
-            <h4 align = "center">Mirai Alejandro Kaneko</h4>
-            <h4 align = "center">camfez</h4>
+        <?php
+        include($_SERVER['DOCUMENT_ROOT']."/buscar/buscar-service.php");
+        $nuevo = new Buscar_Service();
+        $nuevo->consulta($_POST["consulta"]);
+        ?>
         </div>
         
     </body>
