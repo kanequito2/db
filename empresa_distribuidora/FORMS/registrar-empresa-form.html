@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro Emrpesas</title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="titulo">
+            <div>
+                <br>
+                <h1 align="center" style="color: white">GESTIONAR EMPRESAS</h1>
+                <h2 align="center" style="color: white">Registrar</h2>
+            </div>
+        
+            <div class="scrollmenu">
+                    <a href="/empresa_distribuidora/gestionar-empresa.php">Inicio Gestion</a>
+                    <a href="/empresa_distribuidora/FORMS/eliminar-empresa-form.php">Eliminar empresa</a>
+                    <a href="/empresa_distribuidora/FORMS/consultar-empresa-form.php">Consultar</a>
+                    <a href="/empresa_distribuidora/FORMS/buscar-empresa-form.php">Buscar</a>
+            </div>
+            </div>
+        </div>
+        <div align = "center">
+            <div>
+                <br>
+                <form method="POST" action="/empresa_distribuidora/CRUD/registrar-empresa.php">
+                    <table>
+                    <tr>
+                        <th align="left">Codigo:<br></th>
+                        <th><input type="number" name="codigo" required><br></th>
+                    </tr>
+                    <tr>
+                         <th align="left">Nombre Completo:<br></th>
+                         <th><input type="text" name="nombre" required></th>
+                    </tr>
+                    <tr>
+                        <th align="left">Gerente:<br></th>
+                        <th><input type="text" name="gerente" required></th>
+                   </tr>
+                    <tr>
+                        <th colspan=2><input align = "center" type="submit" value="Registrar"></th>
+                    </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
