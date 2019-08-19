@@ -25,7 +25,7 @@
         <?php
         include($_SERVER['DOCUMENT_ROOT']."/buscar/buscar-service.php");
         $nuevo = new Buscar_Service();
-        $nuevo->buscar_nombre($_POST["primer_nombre"]);
+        $nuevo->buscar_nit($_POST["codigo"],$_POST['fecha']);
         ?>
         </div>
         

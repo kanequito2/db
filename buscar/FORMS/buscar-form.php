@@ -26,7 +26,7 @@
                 <br>
                 <form method="POST" action="/buscar/CRUD/buscar-nombre.php">
                     <table>
-                    <tr>Facturas por primer nombre.<br>
+                    <br><tr>Facturas por primer nombre.<br>
                         <select name="primer_nombre" required>
                             <?php
                                 require $_SERVER['DOCUMENT_ROOT'] ."\conexion.php" ;
@@ -49,6 +49,17 @@
                     <tr><input type="submit" name="buscar" value="Buscar"></tr>
                     </table>
                 </form>
+                <br>
+                <form method="POST" action="/buscar/CRUD/buscar-nit.php">
+                <table>
+                    <br><tr>Busqueda de NIT y fecha.<br></tr>
+                    <tr>NIT empresa:</tr>
+                    <tr><input type='number' name = 'codigo' required ></tr>
+                    <tr>Fecha:</tr>
+                    <tr><input type='date' name = 'fecha' required></tr>
+                    <tr><input type='submit' name='buscar1' value='Buscar'><tr>
+                </table>
+            </form>
             </div>
         </div>
         

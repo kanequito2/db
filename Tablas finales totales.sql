@@ -186,5 +186,3 @@ CREATE TABLE administrador(
     codigo_acceso       VARCHAR(10) NOT NULL 
 )engine=innodb;
 --
-
- 
