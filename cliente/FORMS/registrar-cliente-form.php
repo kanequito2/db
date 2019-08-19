@@ -16,7 +16,7 @@
             <div class="scrollmenu">
                     <a href="/cliente/gestionar-clientes.php">Inicio Gestion</a>
                     <a href="/cliente/FORMS/eliminar-cliente-form.php">Eliminar empleado</a>
-                    <a href="/admin/FORMS/buscar-admin-form.php">Buscar</a>
+                    <a href="/buscar/FORMS/buscar-form.php">Buscar</a>
             </div>
             </div>
         </div>

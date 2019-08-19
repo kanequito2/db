@@ -144,7 +144,7 @@
                     echo "<td><b>Nombre</b></td>";
                 echo "</tr>";
                 while($fila =mysqli_fetch_array($datos)){
-                    if($fila['suma']<5000){
+                    if($fila['suma']<=5000){
                         $cod = $fila['codigo_empresa'];
                         $sql = "SELECT * FROM empresa WHERE codigo = $cod";
                         $res = mysqli_query($conne, $sql);

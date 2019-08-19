@@ -16,8 +16,8 @@
             <div class="scrollmenu">
                     <a href="/empresa_distribuidora/gestionar-empresa.php">Inicio Gestion</a>
                     <a href="/empresa_distribuidora/FORMS/registrar-empresa-form.html">Registrar empresa</a>
-                    <a href="/empresa_distribuidora/FORMS/consultar-empresa-form.php">Consultar</a>
-                    <a href="/empresa_distribuidora/FORMS/buscar-empresa-form.php">Buscar</a>
+                    <a href="/buscar/FORMS/consulta-form.php">Consultar</a>
+                    <a href="/buscar/FORMS/buscar-form.php">Buscar</a>
             </div>
             </div>
         </div>

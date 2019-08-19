@@ -16,7 +16,7 @@
             <div class="scrollmenu">
                     <a href="/factura/gestionar-facturas.php">Inicio Gestion</a>
                     <a href="/factura/FORMS/registrar-factura-form.php">Registrar factura</a>
-                    <a href="/admin/FORMS/buscar-admin-form.php">Buscar</a>
+                    <a href="/buscar/FORMS/buscar-form.php">Buscar</a>
             </div>
             </div>
         </div>

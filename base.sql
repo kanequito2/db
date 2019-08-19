@@ -91,7 +91,8 @@ CREATE TABLE solista(
     tipo_identificacion ENUM('CC','pasaporte') NOT NULL,
     numero_identificacion VARCHAR(10) NOT NULL,
     nacionalidad VARCHAR(3) NOT NULL,
-    FOREIGN KEY (codigo) REFERENCES artista(codigo)
+    FOREIGN KEY (codigo) REFERENCES artista(codigo),
+    UNIQUE (tipo_identificacion,numero_identificacion)
 );
 --
 
@@ -120,7 +121,7 @@ CREATE TABLE contrato(
     fecha_afiliacion DATE NOT NULL,
     fecha_finalizacion DATE,
     salario INT(15) NOT NULL,
-    artista INT(10),
+    artista INT(10) UNIQUE,
     numero_id_manager VARCHAR(10),
     tipo_id_manager ENUM ('CC','pasaporte'),
     FOREIGN KEY (artista) REFERENCES artista(codigo),
